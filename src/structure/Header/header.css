@@ -1,0 +1,19 @@
+.component-header {
+    width: 100%;
+    background-color: black;
+    height: 100px;
+    margin: 0;
+    color: yellow;
+    display: flex; 
+    justify-content: center; 
+  }
+
+.component-header-main {
+    width: 1280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px 0px 30px;
+    font-size: 1rem;
+}

@@ -1,0 +1,129 @@
+.component-generate {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center; 
+    
+}
+.component-generate-main {
+    max-width: 1280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.5rem;
+}
+
+.component-generate-form {
+    width: auto;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    align-items: center;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}   
+
+.component-generate-form input {
+    min-width: 500px;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+    padding-left: 20px;
+    font-size: 1rem;
+}
+
+
+
+.component-generate-form button {
+    height: 40px;
+    background-color: #FFD700;
+    color: #000000;
+    font-weight: 500;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.component-generate-form button:hover {
+    background-color: black;
+    color: white;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.component-generate-form button:active {
+    transform: translateY(0);
+    background-color: black;
+    color: white;
+}
+
+
+/*Responsive*/
+
+@media (max-width: 600px) {
+    .component-generate {
+        width: 100%; 
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 0px 30px 0px 30px;
+        box-sizing: border-box; 
+    }
+
+    .component-generate-main {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .component-generate-main h1 {
+        word-wrap: break-word; 
+        overflow-wrap: break-word; 
+        white-space: normal;
+        margin-top: 20px; 
+        font-size: 1.5rem; 
+        text-align: center;
+    }
+
+    .component-generate-form {
+        width: 100%; 
+        height: auto; 
+        display: flex;
+        flex-direction: column;
+        gap: 20px; 
+        margin: 0;
+        padding: 0;
+        border: none;
+        box-sizing: border-box;
+    }
+
+    .component-generate-form input {
+        min-width: 100%; 
+        height: 50px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        padding: 10px; 
+        margin: 0;
+        font-size: 1rem;
+        box-sizing: border-box; 
+    }
+
+    .component-generate-form input::placeholder {
+        color: #aaa;
+        text-align: left; 
+    }
+
+    .component-generate-form button {
+        width: 100%; 
+        height: 50px;
+        border: none;
+        border-radius: 10px;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+
+}

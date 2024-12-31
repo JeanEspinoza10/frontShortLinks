@@ -1,0 +1,43 @@
+.component-footer {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    display: flex;
+    justify-content: center; 
+    margin: 0;
+    margin-top: 20px;
+    display: flex; 
+    justify-content: center; 
+}
+
+.component-footer-main {
+    width: 1280px;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px 0px 30px;
+    font-size: 1rem;
+
+}
+
+.component-footer-main h2 {
+    font-weight: 300;
+    color: yellow;
+}
+
+.component-footer-links {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.icon-linkedin {
+    background-color: white;
+    border-radius: 10px;
+}

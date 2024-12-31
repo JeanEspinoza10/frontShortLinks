@@ -1,0 +1,85 @@
+.component-views {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px;
+}
+
+.component-views-main {
+    width: 1280px;
+    padding: 0px 30px 0px 30px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    text-align: left;
+  }
+  
+  /* Table header styling */
+  table thead th {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+
+  }
+  
+  /* Table body styling */
+  table tbody td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    height: 100%;
+    
+  }
+  
+  /* Add hover effect for rows */
+  table tbody tr:hover {
+    background-color: #e9e5e5;
+  }
+  
+ 
+/*Responsive*/
+
+@media (max-width: 600px) {
+  .component-views {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+  }
+
+  .component-views-main {
+    width: 100%;
+    box-sizing: border-box; 
+  }
+
+  .component-views-table {
+    overflow: auto;
+  }
+  /* Personaliza la barra de desplazamiento */
+  .component-views-table::-webkit-scrollbar {
+    width: 10px; /* Ancho de la barra de desplazamiento vertical */
+  }
+
+  .component-views-table::-webkit-scrollbar-thumb {
+    background-color: black;  /* Color del "dedo" de la barra de desplazamiento */
+    border-radius: 5px; /* Esquinas redondeadas */
+  }
+
+  .component-views-table::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Color del fondo de la barra */
+    border-radius: 5px; /* Esquinas redondeadas */
+  }
+
+
+    
+
+
+}
+  
